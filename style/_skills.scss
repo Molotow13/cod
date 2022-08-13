@@ -1,0 +1,35 @@
+ .skills {
+    &__title {
+    padding-top: 90px;
+    margin-bottom: 70px;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+ }
+
+ .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    &__image {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 23px;
+    }
+    &__title {
+        width: 90px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #828282;
+    }
+   &__stars {
+    align-self: flex-end;
+   }
+ }
